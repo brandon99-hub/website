@@ -1,0 +1,200 @@
+*{
+    margin:0;
+    padding: 0;
+    font-family: Wotfard, sans-serif;
+}
+.header{
+    width:100%;
+    height: 70px;
+    background-color:transparent;
+}
+.header ul {   
+    padding: 2% 6% 1% 6%;
+    text-align: right;
+    flex: 1;
+}
+.header ul li{
+    margin-right:10px;
+    display: inline-block;
+    list-style: none;
+    padding: 20px 50px;
+}
+.header ul li a{
+    text-align: right;
+    text-decoration: none;
+    font-size: 20px;
+    color: white;
+}
+.header ul li a:hover{
+    text-decoration: underline;
+    color: white;
+}
+.bghead{
+    min-height: 100vh;
+    width:100%;
+    background-image: linear-gradient(rgba(0,0,0,0.3),rgba(0,0,0,0.3)), url(bg2.png);
+    background-size: cover;
+    background-position: center;
+    position:absolute;
+}
+.bghead h1{
+    font-size: 60px;
+    margin-top: 80px;
+    margin-left: 60px;
+    color: rgb(249, 249, 249);
+}
+.bghead h1 em{
+    font-size: 70px;
+    font-weight: 500;
+}
+.bghead h3{
+    font-size:23px;
+    color:rgb(249, 249, 249);
+    margin-top: 30px;
+    margin-left: 60px;
+}
+.bghead button {
+    top:82% ;
+    left:9% ;
+    position: absolute;
+    transform: translate(-50%,-50%);
+    padding: 15px 30px;
+    font-size: 20px;
+    background-color: goldenrod;
+    border: none;
+    border-radius: 10px; 
+}
+.bghead button:hover{
+    background-color: white;
+    color: goldenrod;
+}
+.bghead button a{
+    text-decoration: none;
+    color: black;
+} 
+.img1{
+    border-radius: 10px;  
+    top:60% ;
+    left:70% ;
+    position: absolute;
+    transform: translate(-50%,-50%);
+    width: 300px;
+}
+.img2{
+    border-radius: 10px;  
+    top:55% ;
+    left:85% ;
+    position: absolute;
+    transform: translate(-50%,-50%);
+    width: 300px;
+}
+ .img4{
+    border-radius: 10px;  
+    top:90% ;
+    left:60% ;
+    position: absolute;
+    transform: translate(-50%,-50%);
+    width:70px;
+} 
+ .img3{
+    border-radius: 10px;  
+    top:25% ;
+    left:68% ;
+    position: absolute;
+    transform: translate(-50%,-50%);
+    width:50px;
+} 
+footer p{
+    top:96% ;
+    left:86% ;
+    position: absolute;
+    transform: translate(-50%,-50%);
+    color: white;
+}
+.contact {
+    display: flex;
+    padding: 20px;
+    justify-content: space-between;
+    margin-bottom: 20px;
+}
+
+.left {
+    flex: 1;
+    padding-right: 30px;
+    margin-top: 15px;
+}
+
+.left form {
+    max-width: 500px;
+    margin: 0 auto;
+}
+
+.left form p {
+    margin-bottom: 20px;
+}
+
+.left form label {
+    display: block;
+    margin-bottom: 5px;
+}
+
+.left form input[type="text"],
+.left form input[type="email"],
+.left form input[type="tel"],
+.left form textarea {
+    width: 100%;
+    padding: 15px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    margin-top: 5px;
+}
+
+.left form button {
+    padding: 10px 20px;
+    top:96% ;
+    left:50% ;
+    position: absolute;
+    background-color:orange;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+.left form button:hover{
+    background-color: black;
+}
+
+.right {
+    flex: 1;
+    padding-left: 20px;
+}
+
+.right h2 {
+    margin-bottom: 40px;
+    font-size: 30px;
+    color: orange;
+    margin-top: 20px;
+}
+.right address {
+    font-style: normal;
+    margin-bottom: 20px;
+    font-size: 20px;
+}
+.header2 h1{
+    top: 10%;
+    left: 45%;
+    position:absolute;
+    transform: translate(-50%,-50%);
+    color: white;
+    font-size: 40px;
+    text-decoration: double underline;
+}
+.message h4{
+    margin-top: 150px;
+    margin-left: 20px;
+    margin-right: 20px;
+    color: white;
+    font-size: 20px;
+    line-height: 30px;
+
+}

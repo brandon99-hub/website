@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bloggers</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="bghead">
+        <div class="header">
+            <ul>
+                <li><a href="/">Home</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+        </div>
+        <div class="contact">
+            <section class="left">
+                <form action="https://httpbin.org/get" method="get">
+                    <p>
+                        <label for="name">Name*<br></label>
+                        <input type="text" name="name" class="name" placeholder="Enter Your Name" required>
+                    </p>
+                    <p>
+                        <label for="email">Email*<br></label>
+                        <input type="email" name="email" class="email" placeholder="Enter your Email" required>
+                    </p>
+                    <p>
+                        <label for="tel">Tel*<br></label>
+                        <input type="tel" name="tel" class="tel" placeholder="Enter Phone number" required>
+                    </p>
+                    <p>
+                        <label for="message">Your Message</label>
+                        <br>
+                        <textarea name="message" class="message" cols="40" rows="20" placeholder="Type your message here" required></textarea>
+                    </p>
+                    <button type="submit">Submit</button>
+                </form>
+            </section>
+        </div>
+
+    <footer>
+        <p>Made By Brandon Mwenja</p>
+    </footer>
+    </div>
+</body>
+</html>
